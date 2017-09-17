@@ -1,7 +1,3 @@
-import codecs
-import re
-import nltk
-
 re_empty_line = re.compile(r'^\s*$')
 re_remove_chars = re.compile("[\r\n•]+")
 re_chapter_title = re.compile("^[A-ZÁÉÍÓÚÃÕ\. ]+\s*$")
