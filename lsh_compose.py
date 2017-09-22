@@ -1,3 +1,5 @@
+import re
+
 def a(f, n):
     
     return lambda x: f(x)**n
